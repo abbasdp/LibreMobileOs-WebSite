@@ -11,3 +11,4 @@ $.querySelector("#ham-menu") .addEventListener(`click`,e =>{
  $.querySelector(`#navbar-cta`).classList.toggle("hidden")   
  $.querySelector(`.fa-sun`).classList.toggle("fa-moon")   
 })
+
