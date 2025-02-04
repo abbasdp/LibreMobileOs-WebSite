@@ -1,4 +1,4 @@
-/* .avatars {
+.avatars {
     display: inline-block;
     transform: scale(-1, 1);
   }
@@ -8,20 +8,16 @@
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
-    width: 100px;
+    width: 80px;
   }
   
   .avatar:not(:first-child) {
     margin-left: -40px;
   }
   
-  .avatar:not(:hover) {
-      /* margin-bottom: -100px; */
-    /* margin-left: -40px; */
-  /* }
+
   
-  .avatar:hover{
-  }
+
   .avatar img {
     width: 100%;
     display: block;
