@@ -8,11 +8,11 @@
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
-    width: 80px;
+    width: 30%;
   }
   
   .avatar:not(:first-child) {
-    margin-left: -40px;
+    margin-left: -29px;
   }
   
 
