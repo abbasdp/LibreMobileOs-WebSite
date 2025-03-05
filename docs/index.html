@@ -13,24 +13,25 @@
 
 
 
-    <title>Document</title>
+    <title>LiberMob</title>
 
         
   </head>
 
   <body class="dark:bg-black bg-[#FFF]  ">
-  <button type="button" class=" dark:bg-white lightToggle z-10  dark:text-black  p-3 rounded-lg  fixed right-[4%]   bottom-[8%] md:relative  text-sm bg-blue-950  text-white  h-auto md:hidden  " ><i class="fa-solid fa-sun fa-moon"></i></button>
+  <button type="button" class=" mn dark:bg-white lightToggle z-10  dark:text-black  p-3 rounded-lg  fixed right-[4%]   bottom-[8%] md:relative  text-sm bg-blue-950  text-white  h-auto grid md:hidden p-3    " ><i class="fa-solid fa-sun fa-moon"></i></button>
 
  <div class="container m-auto p-3 ">
 
 <nav  class="   bg-[#E8E8E8]   mt-3 rounded-md  border-gray-200 dark:bg-[#212121] ">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-0 md:px-2">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-4 ">
 
-       <a href="" class=" md:hidden"> <button type="button" class=" md:hidden bg-white text-black  hover:bg-purple-400  focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-violet-400  dark:hover:bg-blue-700">Get started</button></a>
+       <a href="" class=" md:hidden"> <button type="button" class=" md:hidden bg-white text-black  hover:bg-purple-400  focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center  dark:bg-violet-400  dark:hover:bg-blue-700">Get started</button></a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <button type="button" class=" dark:bg-white lightToggle dark:text-black  p-3 rounded-lg  fixed  bottom-[8%] md:relative  text-sm bg-blue-950  text-white  h-auto hidden md:block   " ><i class="fa-solid fa-sun fa-moon"></i></button>
+        <button type="button" class=" mn dark:bg-white lightToggle dark:text-black   rounded-lg md:relative  text-sm bg-blue-950  text-white  hidden md:grid   p-4  " >
+          <i class="fa-solid fa-sun fa-moon"></i>
+        </button>
         <button id="ham-menu" class="group inline-flex w-12  md:hidden h-12 text-slate-800 bg-white text-center items-center justify-center rounded shadow-[0_1px_0_theme(colors.slate.950/.04),0_1px_2px_theme(colors.slate.950/.12),inset_0_-2px_0_theme(colors.slate.950/.04)] hover:shadow-[0_1px_0_theme(colors.slate.950/.04),0_4px_8px_theme(colors.slate.950/.12),inset_0_-2px_0_theme(colors.slate.950/.04)] transition" aria-pressed="false" onclick="this.setAttribute('aria-pressed', !(this.getAttribute('aria-pressed') === 'true'))">
-          <span class="sr-only">Menu</span>
           <svg class="w-6 h-6 fill-current pointer-events-none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
               <rect class="origin-center -translate-y-[5px] translate-x-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-[[aria-pressed=true]]:translate-x-0 group-[[aria-pressed=true]]:translate-y-0 group-[[aria-pressed=true]]:rotate-[315deg]" y="7" width="9" height="2" rx="1"></rect>
               <rect class="origin-center transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] group-[[aria-pressed=true]]:rotate-45" y="7" width="16" height="2" rx="1"></rect>
@@ -40,18 +41,16 @@
 
     </div>
     <div class="items-center justify-between py-5 md:py-2 hidden font-normal gap-3 flex flex-col md:flex-row  w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-      <a href="#" class="bg-white block md:bg-transparent w-full p-4 rounded-lg hover:bg-gray-900 hover:text-white md:hover:bg-transparent md:hover:text-black dark:text-white font-medium  dark:bg-zinc-900 md:dark:bg-transparent   dark:text-white ">fa-home</a>
-      <a href="#" class="bg-white block md:bg-transparent w-full p-4 rounded-lg hover:bg-gray-900 hover:text-white md:hover:bg-transparent md:hover:text-black dark:text-white font-medium  dark:bg-zinc-900 md:dark:bg-transparent   dark:text-white ">fa-home</a>
-      <a href="#" class="bg-white block md:bg-transparent w-full p-4 rounded-lg hover:bg-gray-900 hover:text-white md:hover:bg-transparent md:hover:text-black dark:text-white font-medium  dark:bg-zinc-900 md:dark:bg-transparent   dark:text-white ">fa-home</a>
-      <a href="#" class="bg-white block md:bg-transparent w-full p-4 rounded-lg hover:bg-gray-900 hover:text-white md:hover:bg-transparent md:hover:text-black dark:text-white font-medium  dark:bg-zinc-900 md:dark:bg-transparent   dark:text-white ">fa-home</a>
     </div>
     </div>
   </nav>
 
-   <header class="bg-[url('../images/bgl.jpg')] dark:bg-[url('../images/bgd.jpg')] w-full  h-96 bg-cover mt-2  rounded-lg  flex flex-col pb-8 md:pb-0  md:flex-row-reverse
-   flex-wrap h-auto lg:p-10   "> 
+   <header class="bg-[url('../images/bgl.jpg')]  rounded-l-3xl     dark:bg-[url('../images/bgd.jpg')] w-full  bg-cover mt-2     "> 
+<div class="backdrop-blur-md   flex flex-col pb-8 md:pb-0  md:flex-row-reverse
+flex-wrap h-auto lg:p-10">
 
-    <div class="md:w-5/12 p-10 md:p-4 justify-center items-center m-auto  w-full ">
+
+    <div class="md:w-5/12 p-10 md:p-4 justify-center items-center m-auto  w-full  ">
       <img src="../images/logoL.png" class="w-full motion-translate-y-in-25 motion-delay-75   lg:m-auto   	" alt="">
     </div>
     <div  class="md:w-7/12 md:p-7 flex flex-col items-center lg:justify-center  md:items-start  gap-9 md:gap-6  hodden   ">
@@ -63,14 +62,14 @@
       </p>
 
 
-      <div class="flex w-full">
+      <div class="flex w-full btns1">
 
-        <div class="w-6/12 p-2 pr-0 md:p-0   items-center m motion-scale-in-0 motion-opacity-in-0    ">
+        <a href="#" class="w-6/12 p-2 pr-0 md:p-0   items-center m motion-scale-in-0 motion-opacity-in-0    ">
 
           <p class="text-center bg-black p-4 md:p-2 text-base h-auto  text-center md:p-0   text-white  w-full   font-semibold  rounded-xl md:text-lg xl:text-3xl  xl:p-5       ">
             <i class=" fa-solid fa-compass-drafting"></i>
-            Customization</p>
-        </div>
+            Download</p>
+        </a>
         <a href="#" class="w-6/12 p-2 md:p-0 md:px-2    motion-scale-in-0 motion-opacity-in-0    ">
 
           <div class=" items-center md:items-start  ">
@@ -111,61 +110,26 @@
         </p>
         </div>
 
-      </div>
+      </div> 
 
       
        
     </div>
 
+  </div>
 
+  </header>  
 
-  </header> 
-
-   <section class="flex mt-4 justify-evenly   p-5 flex-wrap  ">
-    <div class="w-full my-4  md:w-5/12 intersect:motion-preset-slide-right motion-delay-0 motion-duration-1500  "  >
-      <div class="bg-[#EFF8FF] p-5 rounded-2xl  w-full dark:dark:bg-[url('../images/bg-phone1.png')]  bg-cover bg-no-repeat    flex-col ">
-        <img src="../images/phone.png" class="w-9/12  m-auto " alt="">
-        <h1 class="font-extrabold text-5xl dark:text-white    py-4 p-2 md:text-4xl xl:text-6xl     ">Ulumo</h1>
-        <p class="font-extralight  text-2xl dark:text-white  md:w-11/12   px-4 md:text-lg lg:w-8/12 xl:w-6/12  xl:text-xl     ">Ubuntu Based Operating
-          system</p>
-          <div class="flex justify-end my-4   ">
-
-            <a href="">
-              <button  class=" p-5  rounded-lg text-[#4F378A] bg-[url('../images/bgbtn.png')] h-[126%]  bg-cover bg-no-repeat  "> 
-                <i class="fa-duotone fa-light fa-arrow-turn-right mx-2  "></i>
-                read more</button>
-            </a>
-            </div>      
-    </div>
-</div>
-    <div class="w-full my-4  md:w-5/12 intersect:motion-preset-slide-left  motion-delay-0 motion-duration-1500  " >
-      <div class="bg-[#EFF8FF] p-5 rounded-2xl  w-full dark:dark:bg-[url('../images/bg-phone2.png')]  bg-cover      flex-col ">
-        <img src="../images/phone.png" class="w-9/12  m-auto " alt="">
-        <h1 class="font-extrabold text-5xl dark:text-white  md:text-4xl   py-4 p-2  xl:text-6xl   ">LMODroid</h1>
-        <p class="font-extralight  text-2xl dark:text-white  px-4  md:text-lg xl:w-7/12 xl:text-xl     ">Android AOSP Based Mobile
-          Operating system
-          </p>
-          <div class="flex justify-end my-4   ">
-
-            <a href="">
-              <button  class=" p-5  rounded-lg text-[#4F378A] bg-[url('../images/bgbtn.png')] h-[126%]  bg-cover bg-no-repeat  "> 
-                <i class="fa-duotone fa-light fa-arrow-turn-right mx-2  "></i>
-                read more</button>
-            </a>
-            </div>      
-    </div>
-</div>
-
-
-
+<section class="flex mt-4 justify-evenly   p-5 flex-wrap  " id="prodList">
 
 
   </section>  
 
-  <section class="my-3.5  flex flex-wrap  ">
+ <section class="my-3.5  flex flex-wrap  ">
  <div class="md:w-7/12 p-2 intersect:motion-preset-slide-right-md   motion-delay-0 motion-duration-1500  ">
 <div class="bg-[#E6E6E6] rounded-xl p-2.5  dark:bg-[#2D2D2D] dark:text-white h-full    justify-center   ">
-  <div class="flex flex-col md:flex-row-reverse items-center md:my-5     ">
+  <div class="flex flex-col md:flex-row-reverse items-center md:my-5     "> 
+
 
     <div class="md:w-6/12   p-6 md:p-0   lg:w-5/12     ">
       <img src="../images/githubLogo1.png" class="w-full   " alt="">
@@ -181,30 +145,10 @@
     
   </div>
 
-  <div class="flex ">
 
-    <a  class="w-4/12 p-1 hover:mb-32   " href="#">
+  <p class="p-3 font-light  ">links:</p>
 
-      <div class="bg-[#B3B3B3] p-3 rounded-lg dark:bg-[#232323]  " >
-        <img src="../images/lgit.png" alt="" class="w-full">
-      </div>
-      
-    </a>
-    <a  class="w-4/12 p-1 " href="#">
-
-      <div class="bg-[#B3B3B3] p-3 rounded-lg dark:bg-[#232323]  " >
-        <img src="../images/lgitea.png" alt="" class="w-full">
-      </div>
-      
-    </a>
-    <a  class="w-4/12 p-1 " href="#">
-
-      <div class="bg-[#B3B3B3] p-3 rounded-lg  dark:bg-[#232323] " >
-        <img src="../images/frimor.png" alt="" class="w-full">
-      </div>
-      
-    </a>
-
+  <div class="flex p-0 md:p-4   " id="link_s">
     
 </div>
     </div>
@@ -228,34 +172,23 @@
         <img src="../images/update.png" class="w-4/12  h-fit  lg:w-5/12  m-auto   " alt="">
       </div>
 
-      <div class="bg-[#969696] flex p-2  items-center gap-1.5 justify-around  rounded-4xl dark:bg-[#1A1A1A]   ">
-        <h1 class="text-xl  text-center   text-white">Contributer’s</h1>
-        <div class="avatars flex "  >
-          <a href="https://github.com/Dhina17" class="avatar">
-            <img src="https://avatars.githubusercontent.com/u/43647282?v=4" width="25" height="fit"/>
-            
-          </a>
-          <a href="https://github.com/nift4" class="avatar">
-            <img src="https://avatars.githubusercontent.com/u/36458596?v=4" width="25" height="25"/>
-            
-          </a>
-          <a href="https://github.com/erfanoabdi" class="avatar">
-            <img src="https://avatars.githubusercontent.com/u/7512922?v=4" width="25" height="25"/>
 
-          </a>
-          <a href="https://github.com/iKeramat" class="avatar">
-            <img src="https://avatars.githubusercontent.com/u/60795135?v=4" width="25" height="25"/>
-
-          </a>
-         
-          
       
       </div>
-      </div>
-      
+      <div class="bg-[#E6E6E6] p-2 rounded-3xl flex justify-around  intersect:motion-preset-slide-left-md    motion-delay-500   motion-duration-2000 dark:bg-[#212121] dark:text-white  ">
+        <div class="p-2 flex flex-col justify-evenly w-7/12   ">
+          <h1 class="text-2xl  font-bold  md:text-lg lg:text-2xl      ">active comiunity </h1>
+        </div>
+        <img src="../images/global-community.png" class="w-3/12 p-3   h-fit     " alt="">
       </div>
     </div>
-  </section>
+
+  </section>   
+
+
+<section class="flex flex-wrap gap-0.5 m-auto  justify-center  md:gap-2  " id="Compatible">
+
+</section> 
 
 </div>
 
