@@ -27,8 +27,6 @@ header{
   /* background-image: url(../images/samsung-exynos-2400\ 1.png); */
 } 
 
-body{
-  font-family: Vazirmatn;}
 
 
 .fa-solid{
@@ -38,3 +36,12 @@ body{
 /* .mn{
   display: grid; 
 } */
+
+
+
+
+.card {
+  margin: 0 0 1rem;
+  width: 100%;
+  break-inside: avoid;
+}

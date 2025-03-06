@@ -2,41 +2,6 @@
 let $ = document
 
 
-/////////////////////dark mode //////////////////////////////////
-
-$.querySelectorAll(".lightToggle").forEach(element => {
-  element.addEventListener(`click`,e =>{
-      $.querySelector(`html`).classList.toggle("dark")   
-      $.querySelector(`.fa-sun`).classList.toggle("fa-moon")   
-    })
-})
-
-///////////////////////////////////////////////////////////// nav links  //////////////////
-
-let  ListMenu = [
-  {href:"xx",text:"Home",},
-  {href:"xx",text:"About",},
-  {href:"xx",text:"Downloads",},
-  {href:"xx",text:"LMODroid",},
-  {href:"xx",text:"Enterprise",},
-  {href:"xx",text:"Lega",}
-]
-
-
-ListMenu.forEach(es =>{
-  let itemtemp = `<a href="${es.href}" class="bg-white block md:bg-transparent w-full p-4 rounded-lg  font-medium  dark:bg-zinc-900 md:dark:bg-transparent   dark:text-white  dark:hover:bg-[#fcf0ff] dark:hover:text-black  hover:bg-[#fcf0ff]  ">${es.text}</a>`
-  $.querySelector(`#navbar-cta`).insertAdjacentHTML('beforeend',itemtemp)
-
-})
-
-
-
-
-$.querySelector("#ham-menu") .addEventListener(`click`,e =>{
- $.querySelector(`#navbar-cta`).classList.toggle("hidden")   
- $.querySelector(`.fa-sun`).classList.toggle("fa-moon")   
-})
-
 ////////////////////////////////////// anime lb /////
 
 const text = "LibreMobileOS";
@@ -161,26 +126,7 @@ $.querySelector("#link_s").insertAdjacentHTML("beforeend",link_temp
 // ftch();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+///////////////////////////لیست پردازنده ها
 
 let pros_img = [
   {img :"../images/Compatible/amlogic.png" , link:''},
