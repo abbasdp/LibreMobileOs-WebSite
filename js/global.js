@@ -27,7 +27,7 @@ nav_elements = `    <div class="max-w-screen-xl flex flex-wrap items-center just
 
 let  ListMenu = [
     {href:"/docs/index.html",text:"Home",},
-    {href:"",text:"About",},
+    {href:"/docs/about.html",text:"About",},
     {href:"xx",text:"Downloads",},
     {href:"xx",text:"LMODroid",},
     {href:"/docs/enterprise.html",text:"Enterprise",},
