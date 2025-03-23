@@ -56,10 +56,10 @@ let prudoct_list = [
 
 prudoct_list.forEach( elm =>{
 
-  let prodBox = `    <div class="w-full bg-[#EFF8FF] my-4  md:w-5/12 intersect:motion-preset-slide-right motion-delay-0 motion-duration-1500 dark:dark:bg-[url('${elm.bgimg}')]  bg-cover bg-no-repeat rounded-2xl  "  >
+  let prodBox = `    <div class="w-full bg-[#EFF8FF] my-4  md:w-5/12 intersect:motion-preset-slide-right motion-delay-0 motion-duration-1500 dark:bg-[url('${elm.bgimg}')]   bg-cover bg-no-repeat rounded-2xl  "  >
       <div class=" p-5 rounded-2xl   w-full  backdrop-blur-2xl   flex-col ">
         <img src="${elm.img}" class="w-9/12  m-auto " alt="">
-        <h1 class="font-extrabold text-5xl dark:text-white    py-4 p-2 md:text-4xl xl:text-6xl     ">${elm.title}</h1>
+        <h1 class="font-extrabold text-5xl dark:text-white    py-4 p-2 md:text-4xl xl:text-6xl      ">${elm.title}</h1>
         <p class="font-extralight  text-2xl dark:text-white  md:w-11/12   px-4 md:text-lg lg:w-8/12 xl:w-6/12  xl:text-xl     ">${elm.subTitle}
           system</p>
           <div class="flex justify-end my-4   ">
@@ -100,7 +100,7 @@ suorce_link.forEach( elm =>{
 
   let link_temp = `    <a  class="w-3/12 p-1 shrink-0  "  href="${elm.link}">
 
-  <div class="bg-[#B3B3B3] h-full p-3 rounded-lg hover:bg-[#4f505196]   dark:bg-[#232323] " >
+  <div class="bg-[#B3B3B3] h-full p-3 rounded-lg hover:bg-[#4f505196]  dark:bg-[#232323] " >
     <img src="${elm.img}" alt="" class="w-full">
   </div>
   

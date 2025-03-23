@@ -29,7 +29,7 @@ let  ListMenu = [
     {href:"/docs/index.html",text:"Home",},
     {href:"/docs/about.html",text:"About",},
     {href:"xx",text:"Downloads",},
-    {href:"xx",text:"LMODroid",},
+    {href:"/docs/lmodroid.html",text:"LMODroid",},
     {href:"/docs/enterprise.html",text:"Enterprise",},
     {href:"/docs/Niga.html",text:"Lega",}
   ]

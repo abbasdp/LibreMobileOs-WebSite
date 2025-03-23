@@ -53,9 +53,15 @@ let team = [
 
 ]
 
+let Infrastructures = [
+    {link:"https://gerrit.libremobileos.com", textlink:"Gerrit for Code Review:", text:"We rely on Gerrit as our code review platform to maintain high-quality standards. This powerful tool fosters collaboration among contributors, enabling seamless feedback, tracking, and improvement of code before it becomes part of the project.",},
+    {link:"https://git.libremobileos.com", textlink:"Git for Code Management:", text:"Our codebase is securely stored and version-controlled using Git. This ensures that every contribution is meticulously tracked, making it easy to collaborate across a global developer community while maintaining a clear history of changes.",},
+    {link:"https://jenkins.libremobileos.com", textlink:"Jenkins as Our Build Server:", text:"    Jenkins powers our continuous integration and delivery pipelines. It automates the build and testing processes, allowing us to deliver stable and reliable software efficiently. From compiling code to deploying new versions, Jenkins ensures a smooth and consistent workflow.",},
+
+]
 
 
-
+let temp_infr = `<li class="text-xl my-5.5  font-medium text-[#1e1e1ecf] md:text-2xl dark:text-white  " ><a href="#" class="text-blue-500  ">Gerrit for Code Review:</a> We rely on Gerrit as our code review platform to maintain high-quality standards. This powerful tool fosters collaboration among contributors, enabling seamless feedback, tracking, and improvement of code before it becomes part of the project.</li>`
 
 
 
@@ -148,4 +154,14 @@ team.forEach(person=>{
     </div>        
 </div>`
 document.querySelector(`#team`).insertAdjacentHTML("beforeend",team_temp)
+})
+
+
+
+Infrastructures.forEach(intr=>{
+
+let temp_infr = `<li class="text-xl my-5.5  font-medium text-[#1e1e1ecf] md:text-2xl dark:text-white  " ><a href="${intr.link}" class="text-blue-500  ">${intr.textlink}</a> ${intr.text}</li>`
+
+
+document.querySelector(`#liint`).insertAdjacentHTML("beforeend",temp_infr)
 })
