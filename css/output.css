@@ -684,6 +684,9 @@
   .end-2 {
     inset-inline-end: calc(var(--spacing) * 2);
   }
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
@@ -827,6 +830,9 @@
   }
   .my-2 {
     margin-block: calc(var(--spacing) * 2);
+  }
+  .my-3 {
+    margin-block: calc(var(--spacing) * 3);
   }
   .my-3\.5 {
     margin-block: calc(var(--spacing) * 3.5);
@@ -1041,6 +1047,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1050,8 +1059,14 @@
   .w-3\/12 {
     width: calc(3/12 * 100%);
   }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
+  }
   .w-4\/12 {
     width: calc(4/12 * 100%);
+  }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
   }
   .w-5\/12 {
     width: calc(5/12 * 100%);
@@ -1062,17 +1077,32 @@
   .w-6\/12 {
     width: calc(6/12 * 100%);
   }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
+  }
   .w-7\/12 {
     width: calc(7/12 * 100%);
+  }
+  .w-8 {
+    width: calc(var(--spacing) * 8);
   }
   .w-8\/12 {
     width: calc(8/12 * 100%);
   }
+  .w-9 {
+    width: calc(var(--spacing) * 9);
+  }
   .w-9\/12 {
     width: calc(9/12 * 100%);
   }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
   .w-10\/12 {
     width: calc(10/12 * 100%);
+  }
+  .w-11 {
+    width: calc(var(--spacing) * 11);
   }
   .w-11\/12 {
     width: calc(11/12 * 100%);
@@ -1189,6 +1219,10 @@
     --tw-translate-y: 100%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .-translate-y-1 {
+    --tw-translate-y: calc(var(--spacing) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .-translate-y-1\/2 {
     --tw-translate-y: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -1253,6 +1287,11 @@
   }
   .motion-blur-in {
     --motion-origin-blur: 8px;
+    --motion-filter-in-animation: motion-filter-in calc(var(--motion-filter-duration) * var(--motion-filter-perceptual-duration-multiplier)) var(--motion-filter-timing) var(--motion-filter-delay) both;
+    animation: var(--motion-all-loop-and-enter-animations);
+  }
+  .motion-blur-in-md {
+    --motion-origin-blur: 12px;
     --motion-filter-in-animation: motion-filter-in calc(var(--motion-filter-duration) * var(--motion-filter-perceptual-duration-multiplier)) var(--motion-filter-timing) var(--motion-filter-delay) both;
     animation: var(--motion-all-loop-and-enter-animations);
   }
@@ -1947,8 +1986,14 @@
   .justify-items-stretch {
     justify-items: stretch;
   }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
   .gap-0\.5 {
     gap: calc(var(--spacing) * 0.5);
+  }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
   }
   .gap-1\.5 {
     gap: calc(var(--spacing) * 1.5);
@@ -1964,6 +2009,9 @@
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
   }
   .gap-5\.5 {
     gap: calc(var(--spacing) * 5.5);
@@ -2589,6 +2637,9 @@
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
   }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
   .py-3\.5 {
     padding-block: calc(var(--spacing) * 3.5);
   }
@@ -2845,6 +2896,36 @@
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
   }
+  .text-\[\#2d2c30\] {
+    color: #2d2c30;
+  }
+  .text-\[\#5d616b\] {
+    color: #5d616b;
+  }
+  .text-\[\#302f2f\] {
+    color: #302f2f;
+  }
+  .text-\[\#3B3B3B\] {
+    color: #3B3B3B;
+  }
+  .text-\[\#3C3C3C\] {
+    color: #3C3C3C;
+  }
+  .text-\[\#424242\] {
+    color: #424242;
+  }
+  .text-\[\#4F378A\] {
+    color: #4F378A;
+  }
+  .text-\[\#525050c7\] {
+    color: #525050c7;
+  }
+  .text-\[\#707070\] {
+    color: #707070;
+  }
+  .text-\[\#1010106b\] {
+    color: #1010106b;
+  }
   .text-\[\#161616\] {
     color: #161616;
   }
@@ -2863,44 +2944,14 @@
   .text-\[\#2E2E2E\] {
     color: #2E2E2E;
   }
-  .text-\[\#2d2c30\] {
-    color: #2d2c30;
-  }
-  .text-\[\#302f2f\] {
-    color: #302f2f;
-  }
   .text-\[\#352020\] {
     color: #352020;
-  }
-  .text-\[\#3B3B3B\] {
-    color: #3B3B3B;
-  }
-  .text-\[\#3C3C3C\] {
-    color: #3C3C3C;
-  }
-  .text-\[\#424242\] {
-    color: #424242;
   }
   .text-\[\#494949\] {
     color: #494949;
   }
-  .text-\[\#4F378A\] {
-    color: #4F378A;
-  }
-  .text-\[\#525050c7\] {
-    color: #525050c7;
-  }
-  .text-\[\#5d616b\] {
-    color: #5d616b;
-  }
   .text-\[\#646464\] {
     color: #646464;
-  }
-  .text-\[\#707070\] {
-    color: #707070;
-  }
-  .text-\[\#1010106b\] {
-    color: #1010106b;
   }
   .text-\[\#D2D2D2\] {
     color: #D2D2D2;
@@ -3352,14 +3403,14 @@
   .motion-delay-0 {
     --motion-delay: 0s;
   }
+  .motion-delay-75 {
+    --motion-delay: 75ms;
+  }
   .motion-delay-500 {
     --motion-delay: 500ms;
   }
   .motion-delay-700 {
     --motion-delay: 700ms;
-  }
-  .motion-delay-75 {
-    --motion-delay: 75ms;
   }
   .motion-delay-\[\$\{delay\}ms\] {
     --motion-delay: ${delay}ms;
@@ -4414,6 +4465,13 @@
       animation: var(--motion-all-loop-and-enter-animations);
     }
   }
+  .intersect\:motion-opacity-in-0 {
+    &:not([no-intersect]) {
+      --motion-origin-opacity: 0.001;
+      --motion-opacity-in-animation: motion-opacity-in calc(var(--motion-opacity-duration) * var(--motion-opacity-perceptual-duration-multiplier)) var(--motion-opacity-timing) var(--motion-opacity-delay) both;
+      animation: var(--motion-all-loop-and-enter-animations);
+    }
+  }
   .intersect\:motion-preset-slide-left-md {
     &:not([no-intersect]) {
       --motion-origin-translate-x: 25%;
@@ -4446,6 +4504,13 @@
       --motion-origin-translate-y: 25%;
       --motion-origin-opacity: 0;
       --motion-opacity-in-animation: motion-opacity-in calc(var(--motion-opacity-duration) * var(--motion-opacity-perceptual-duration-multiplier)) var(--motion-opacity-timing) var(--motion-opacity-delay) both;
+      --motion-translate-in-animation: motion-translate-in calc(var(--motion-translate-duration) * var(--motion-translate-perceptual-duration-multiplier)) var(--motion-translate-timing) var(--motion-translate-delay) both;
+      animation: var(--motion-all-loop-and-enter-animations);
+    }
+  }
+  .intersect\:motion-translate-y-in-100 {
+    &:not([no-intersect]) {
+      --motion-origin-translate-y: 100%;
       --motion-translate-in-animation: motion-translate-in calc(var(--motion-translate-duration) * var(--motion-translate-perceptual-duration-multiplier)) var(--motion-translate-timing) var(--motion-translate-delay) both;
       animation: var(--motion-all-loop-and-enter-animations);
     }

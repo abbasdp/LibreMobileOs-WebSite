@@ -1,4 +1,7 @@
 
+if(  !localStorage.getItem("theme")){
+  localStorage.setItem("theme", "light")
+}
 
 let $ = document
 
@@ -56,5 +59,48 @@ let  ListMenu = [
     element.addEventListener(`click`,e =>{
         $.querySelector(`html`).classList.toggle("dark")   
         $.querySelector(`.fa-sun`).classList.toggle("fa-moon")   
+
+
+
+        lg = localStorage.getItem("theme")
+
+        if (lg =="dark") {
+          localStorage.setItem("theme" , "light") 
+        }else{
+          localStorage.setItem("theme" , "dark") 
+  
+        }
+
       })
+
+
+
   })
+
+
+
+
+
+
+
+
+  // چک کن آیا کاربر قبلاً دارک مود رو تغییر داده یا نه
+const userPref = localStorage.getItem("theme");
+const systemPref = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+if (userPref === "dark" || (!userPref && systemPref)) {
+  document.documentElement.classList.add("dark");
+} else {
+  document.documentElement.classList.remove("dark");
+}
+
+// تابعی برای تغییر تم و ذخیره در لوکال‌استورج
+function toggleDarkMode() {
+  if (document.documentElement.classList.contains("dark")) {
+    document.documentElement.classList.remove("dark");
+    localStorage.setItem("theme", "light");
+  } else {
+    document.documentElement.classList.add("dark");
+    localStorage.setItem("theme", "dark");
+  }
+}
