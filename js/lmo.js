@@ -42,7 +42,7 @@ let datas = [
 
 datas.forEach((item, index) => {
     let elemli = `
-        <li class=" p-3.5 rounded-xl font-bold  hover:bg-[#0000001c]   text-[#525050c7]    flex gap-2.5 text-2xl menu-item w-fit text-lg md:w-full  " data-index="${index}">
+        <li class=" p-3  rounded-xl font-bold  items-center  hover:bg-[#0000001c] text-lg    text-[#525050c7] dark:text-[#f8f8f8e1]     flex gap-2.5 text-2xl menu-item w-fit text-lg md:w-full  " data-index="${index}">
             <i class="fa-solid ${item.icon}"></i>   
             <p>${item.title}</p>
         </li>
@@ -67,9 +67,10 @@ setclick.forEach(item => {
         document.querySelectorAll(".menu-item")[0].classList.add("bg-[#0000001a]")
     );      
 
-        item.classList.toggle("bg-[#0000001a]");  
+  item.classList.toggle("bg-[#0000001a]");  
   item.classList.toggle("text-black");   
   item.classList.remove("text-[#525050c7]"); 
+
 
 
   
@@ -100,8 +101,8 @@ function setslider(index) {
         let slelem = `
             <div class="slide w-full shrink-0 p-4 ${i === 0 ? "block" : "hidden"}">
                 <img src="${obg.img}" class="rounded-lg w-4/12 m-auto" alt="Slide">
-                <h2 class="text-center mt-2 text-black font-black text-3xl mt-5">${obg.title}</h2>
-                <p class="text-center my-5 font-medium text-[#494949]">${obg.minititle}</p>
+                <h2 class="text-center mt-2 text-black font-black text-3xl mt-5 dark:text-white ">${obg.title}</h2>
+                <p class="text-center my-5 font-medium text-[#494949] dark:text-white min-h-12  ">${obg.minititle}</p>
             </div>`;
 
         slider.insertAdjacentHTML("beforeend", slelem);
