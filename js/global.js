@@ -84,7 +84,6 @@ let  ListMenu = [
 
 
 
-  // چک کن آیا کاربر قبلاً دارک مود رو تغییر داده یا نه
 const userPref = localStorage.getItem("theme");
 const systemPref = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -94,7 +93,6 @@ if (userPref === "dark" || (!userPref && systemPref)) {
   document.documentElement.classList.remove("dark");
 }
 
-// تابعی برای تغییر تم و ذخیره در لوکال‌استورج
 function toggleDarkMode() {
   if (document.documentElement.classList.contains("dark")) {
     document.documentElement.classList.remove("dark");
