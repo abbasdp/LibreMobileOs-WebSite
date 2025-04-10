@@ -1,4 +1,45 @@
 let datas = [
+    {icon:"fa-power-off" , title:"powermenu" ,
+        slide:[
+           {img:"../images/lmo/lmodroid/powermenu/a7.png" , title :"Game Space" , minititle:"Provides zero interruptions with useful floating actions for the games. It will take your gaming experience to the next level"},
+           {img:"../images/lmo/lmodroid/powermenu/a8.png" , title :"Parallel Space" , minititle:"With LMODroid's Parallel Space feature, you can run multiple instances of the same application in parallel"},
+           {img:"../images/lmo/lmodroid/powermenu/a8-grid.png" , title :"MicroG" , minititle:"Full compatibility with microG or official Google Play Services"},
+           {img:"../images/lmo/lmodroid/powermenu/a11.png" , title :"OpenEUICC" , minititle:"Open source solution for eSIM compatible devices"},
+           {img:"../images/lmo/lmodroid/powermenu/a12+.png" , title :"Seed Vault" , minititle:"Open source application to backup and encrypt your data"},
+        ]
+       },
+
+       {icon:"fa-icons" , title:"apps" ,
+        slide:[
+           {img:"../images/lmo/lmodroid/apps/1.dialer.png" , title :"Game Space" , minititle:"Provides zero interruptions with useful floating actions for the games. It will take your gaming experience to the next level"},
+           {img:"../images/lmo/lmodroid/apps/2.contacts.png" , title :"Parallel Space" , minititle:"With LMODroid's Parallel Space feature, you can run multiple instances of the same application in parallel"},
+           {img:"../images/lmo/lmodroid/apps/3.messaging.png" , title :"MicroG" , minititle:"Full compatibility with microG or official Google Play Services"},
+           {img:"../images/lmo/lmodroid/apps/4.browser.png" , title :"OpenEUICC" , minititle:"Open source solution for eSIM compatible devices"},
+           {img:"../images/lmo/lmodroid/apps/5.clock.png" , title :"Seed Vault" , minititle:"Open source application to backup and encrypt your data"},
+           {img:"../images/lmo/lmodroid/apps/6.calculator.png" , title :"MicroG" , minititle:"Full compatibility with microG or official Google Play Services"},
+           {img:"../images/lmo/lmodroid/apps/7.gallery.png" , title :"OpenEUICC" , minititle:"Open source solution for eSIM compatible devices"},
+           {img:"../images/lmo/lmodroid/apps/8.recording.png" , title :"Seed Vault" , minititle:"Open source application to backup and encrypt your data"},
+        ]
+       },
+
+       {icon:"fa-microchip" , title:"misc" ,
+        slide:[
+           {img:"../images/lmo/lmodroid/misc/1.buttons.png" , title :"Game Space" , minititle:"Provides zero interruptions with useful floating actions for the games. It will take your gaming experience to the next level"},
+           {img:"../images/lmo/lmodroid/misc/2.statusbar.png" , title :"Parallel Space" , minititle:"With LMODroid's Parallel Space feature, you can run multiple instances of the same application in parallel"},
+           {img:"../images/lmo/lmodroid/misc/3.tts.png" , title :"MicroG" , minititle:"Full compatibility with microG or official Google Play Services"},
+           {img:"../images/lmo/lmodroid/misc/4.gesture.png" , title :"OpenEUICC" , minititle:"Open source solution for eSIM compatible devices"},
+        ]
+       },
+
+    {icon:"fa-headphones" , title:"sound-ux" ,
+        slide:[
+           {img:"../images/lmo/lmodroid/sound-ux/1.soundsettings.png" , title :"Game Space" , minititle:"Provides zero interruptions with useful floating actions for the games. It will take your gaming experience to the next level"},
+           {img:"../images/lmo/lmodroid/sound-ux/2.multisim-ringtone.png" , title :"Parallel Space" , minititle:"With LMODroid's Parallel Space feature, you can run multiple instances of the same application in parallel"},
+           {img:"../images/lmo/lmodroid/sound-ux/3.vibration.png" , title :"MicroG" , minititle:"Full compatibility with microG or official Google Play Services"},
+           {img:"../images/lmo/lmodroid/sound-ux/4.perapp-volume.png" , title :"OpenEUICC" , minititle:"Open source solution for eSIM compatible devices"},
+        ]
+       },
+
     {icon:"fa-highlighter-line" , title:"Highlights" ,
          slide:[
             {img:"../images/lmo/lmodroid/highlights/1.gamespace.png" , title :"Game Space" , minititle:"Provides zero interruptions with useful floating actions for the games. It will take your gaming experience to the next level"},
@@ -32,11 +73,27 @@ let datas = [
     ] },
 
 
-    {icon:"fa-light-emergency-on" , title:"Panic Trigger" , slide:[{img:"img3" , title :"data1" , minititle:""}] },
+    {icon:"fa-light-emergency-on" , title:"Panic Trigger" , slide:[
+        {img:"../images/lmo/lmodroid/panic-trigger/1.powermenu.png" , title :"data1" , minititle:"dsf"},
+        {img:"../images/lmo/lmodroid/panic-trigger/2.applist.png" , title :"data1" , minititle:"dsf"},
+        {img:"../images/lmo/lmodroid/panic-trigger/3.panic.png" , title :"data1" , minititle:"dsfa"}
 
-    {icon:"fa-swatchbook" , title:"Design & UI" , slide:[
-        {img:"img4" , title :"data1" , minititle:""}
     ] },
+
+    {icon:"fa-swatchbook" , title:"Design & UI" , slide:[ 
+        {img:"../images/lmo/lmodroid/design/1.home.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/2.appdrawer.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/3.qs.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/4.customization-1.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/5.customization-2.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/6.customization-3.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/7.customization-4.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/8.home-themed.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/9.wallpepars.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/10.customization-5.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/11.customization-6.png" , title :"data1" , minititle:"dsfa"},
+        {img:"../images/lmo/lmodroid/design/12.settings.png" , title :"data1" , minititle:"dsfa"},
+    ]}
 ]
 
 

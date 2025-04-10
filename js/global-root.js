@@ -7,7 +7,7 @@ let $ = document
 
 nav_elements = `          <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-0  ">
 
-                <a href="" class=" w-12 md:mr-14           "><img class="" src="../images/lmo/image 1.svg"  alt=""></a>
+                <a href="" class=" w-12 md:mr-14           "><img class="" src="images/lmo/image 1.svg"  alt=""></a>
              <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             
                  <button id="ham-menu" class="group inline-flex w-12  md:hidden h-12 text-slate-800 bg-white text-center items-center justify-center rounded shadow-[0_1px_0_theme(colors.slate.950/.04),0_1px_2px_theme(colors.slate.950/.12),inset_0_-2px_0_theme(colors.slate.950/.04)] hover:shadow-[0_1px_0_theme(colors.slate.950/.04),0_4px_8px_theme(colors.slate.950/.12),inset_0_-2px_0_theme(colors.slate.950/.04)] transition" aria-pressed="false" onclick="this.setAttribute('aria-pressed', !(this.getAttribute('aria-pressed') === 'true'))">
@@ -30,12 +30,12 @@ nav_elements = `          <div class="max-w-screen-xl flex flex-wrap items-cente
 
 
 let  ListMenu = [
-    {href:"../",text:"Home",},
-    {href:"../about/",text:"About",},
-    {href:"xx",text:"Downloads",},
-    {href:"../lmodroid/",text:"LMODroid",},
-    {href:"../enterprise/",text:"Enterprise",},
-    {href:"../Niga/",text:"Lega",}
+    {href:"index.html",text:"Home",},
+    {href:"about/",text:"About",},
+    {href:"https://get.libremobileos.com/changes",text:"Downloads",},
+    {href:"lmodroid/",text:"LMODroid",},
+    {href:"enterprise/",text:"Enterprise",},
+    {href:"Niga/",text:"Lega",}
   ]
   
   ListMenu.forEach(es =>{

@@ -132,12 +132,12 @@ let pros_img = [
   {img :"../images/Compatible/amlogic.png" , link:''},
   {img :"../images/Compatible/Allwinner.png" , link:''},
   {img :"../images/Compatible/broadcom.png" , link:''},
-  {img :"../images/Compatible/amlogic.png" , link:''},
-  {img :"../images/Compatible/amlogic.png" , link:''},
-  {img :"../images/Compatible/amlogic.png" , link:''},
-  {img :"../images/Compatible/amlogic.png" , link:''},
-  {img :"../images/Compatible/amlogic.png" , link:''},
-  {img :"../images/Compatible/amlogic.png" , link:''},
+  {img :"../images/Compatible/gp.png" , link:''},
+  {img :"../images/Compatible/Intel.png" , link:''},
+  {img :"../images/Compatible/MediaTek.png" , link:''},
+  {img :"../images/Compatible/Qualcomm.png" , link:''},
+  {img :"../images/Compatible/rockchip.png" , link:''},
+  {img :"../images/Compatible/samsung.png" , link:''},
 
 
 ]

@@ -1,0 +1,206 @@
+.
+├── about
+│   ├── images
+│   │   └── lmo
+│   │       ├── image 1.svg
+│   │       └── lmo-bg.png
+│   └── index.html
+├── css
+│   ├── all.min.css
+│   ├── input.css
+│   ├── output.css
+│   ├── style.css
+│   └── Vazirmatn-Variable-font-face.css
+├── enterprise
+│   ├── images
+│   │   └── lmo
+│   │       ├── image 1.svg
+│   │       └── lmo-bg.png
+│   └── index.html
+├── fonts
+│   └── webfonts
+│       ├── AlbertSans-Black.woff2
+│       ├── AlbertSans-Bold.woff2
+│       ├── AlbertSans-ExtraBold.woff2
+│       ├── AlbertSans-ExtraLight.woff2
+│       ├── AlbertSans-Light.woff2
+│       ├── AlbertSans-Medium.woff2
+│       ├── AlbertSans-Regular.woff2
+│       ├── AlbertSans-SemiBold.woff2
+│       └── AlbertSans-Thin.woff2
+├── images
+│   ├── 300px-Allwinner 1.png
+│   ├── 8391425 1.png
+│   ├── about
+│   │   ├── avatars
+│   │   │   ├── image-1.png
+│   │   │   ├── image-2.png
+│   │   │   ├── image-3.png
+│   │   │   └── image.png
+│   │   └── libremobileos_logo.svg
+│   ├── amlogic-logo-400-400 1.png
+│   ├── bgbtn.png
+│   ├── bgd.jpg
+│   ├── bgl.jpg
+│   ├── bg-phone1.png
+│   ├── bg-phone2.png
+│   ├── Broadcom-Logo-1991 1.png
+│   ├── Compatible
+│   │   ├── Allwinner.png
+│   │   ├── amlogic.png
+│   │   ├── broadcom.png
+│   │   ├── gp.png
+│   │   ├── Intel.png
+│   │   ├── MediaTek.png
+│   │   ├── Qualcomm.png
+│   │   ├── rockchip.png
+│   │   └── samsung.png
+│   ├── device.png
+│   ├── enterprice
+│   │   ├── account-settings.svg
+│   │   ├── cast.svg
+│   │   ├── devices.svg
+│   │   ├── key.svg
+│   │   ├── kiosk.svg
+│   │   └── monitor.svg
+│   ├── frimor.png
+│   ├── githubLogo1.png
+│   ├── giticon.png
+│   ├── global-community.png
+│   ├── Group 12 (1).png
+│   ├── Group 1.png
+│   ├── Group 51.png
+│   ├── image 8.png
+│   ├── Intel-Logo 1.png
+│   ├── jenkins-1 1.png
+│   ├── lgitea.png
+│   ├── lgit.png
+│   ├── lmo
+│   │   ├── image 1.svg
+│   │   ├── lmo-bg.png
+│   │   └── lmodroid
+│   │       ├── apps
+│   │       │   ├── 1.dialer.png
+│   │       │   ├── 2.contacts.png
+│   │       │   ├── 3.messaging.png
+│   │       │   ├── 4.browser.png
+│   │       │   ├── 5.clock.png
+│   │       │   ├── 6.calculator.png
+│   │       │   ├── 7.gallery.png
+│   │       │   └── 8.recording.png
+│   │       ├── design
+│   │       │   ├── 10.customization-5.png
+│   │       │   ├── 11.customization-6.png
+│   │       │   ├── 12.settings.png
+│   │       │   ├── 1.home.png
+│   │       │   ├── 2.appdrawer.png
+│   │       │   ├── 3.qs.png
+│   │       │   ├── 4.customization-1.png
+│   │       │   ├── 5.customization-2.png
+│   │       │   ├── 6.customization-3.png
+│   │       │   ├── 7.customization-4.png
+│   │       │   ├── 8.home-themed.png
+│   │       │   └── 9.wallpepars.png
+│   │       ├── desktop
+│   │       │   ├── desktop.png
+│   │       │   ├── desktop-settings.png
+│   │       │   ├── pc.png
+│   │       │   └── tv.png
+│   │       ├── highlights
+│   │       │   ├── 10.edgelight.png
+│   │       │   ├── 1.gamespace.png
+│   │       │   ├── 2.parallelspace.png
+│   │       │   ├── 3.microg.png
+│   │       │   ├── 4.OpenEUICC.png
+│   │       │   ├── 5.seedvault.png
+│   │       │   ├── 6.chargingcontrol.png
+│   │       │   ├── 7.refreshrate.png
+│   │       │   ├── 8.hotspot.png
+│   │       │   └── 9.glidekeyboard.png
+│   │       ├── misc
+│   │       │   ├── 1.buttons.png
+│   │       │   ├── 2.statusbar.png
+│   │       │   ├── 3.tts.png
+│   │       │   └── 4.gesture.png
+│   │       ├── panic-trigger
+│   │       │   ├── 1.powermenu.png
+│   │       │   ├── 2.applist.png
+│   │       │   └── 3.panic.png
+│   │       ├── powermenu
+│   │       │   ├── a11.png
+│   │       │   ├── a12+.png
+│   │       │   ├── a7.png
+│   │       │   ├── a8-grid.png
+│   │       │   └── a8.png
+│   │       ├── security
+│   │       │   ├── 10.network-monitor.png
+│   │       │   ├── 1.faceunlock.png
+│   │       │   ├── 2.applock.png
+│   │       │   ├── 3.dns.png
+│   │       │   ├── 4.pattern.png
+│   │       │   ├── 5.restrict-usb.png
+│   │       │   ├── 6.auto-reboot.png
+│   │       │   ├── 7.globalvpn.png
+│   │       │   ├── 8.restrict-cleartext-network.png
+│   │       │   └── 9.vpn-tethring.png
+│   │       └── sound-ux
+│   │           ├── 1.soundsettings.png
+│   │           ├── 2.multisim-ringtone.png
+│   │           ├── 3.vibration.png
+│   │           └── 4.perapp-volume.png
+│   ├── lmo-logo-icon.png
+│   ├── logo03_s 1.png
+│   ├── logoL.png
+│   ├── MediaTek-Logo.wine 1.png
+│   ├── phone.png
+│   ├── Qualcomm-Emblem 1.png
+│   ├── samsung-exynos-2400 1.png
+│   └── update.png
+├── index.html
+├── js
+│   ├── about.js
+│   ├── app.js
+│   ├── enterprise.js
+│   ├── global.js
+│   ├── global-root.js
+│   ├── head.js
+│   ├── head-root.js
+│   ├── liga.js
+│   └── lmo.js
+├── lmodroid
+│   ├── images
+│   │   └── lmo
+│   │       ├── image 1.svg
+│   │       └── lmo-bg.png
+│   └── index.html
+├── Niga
+│   ├── images
+│   │   └── lmo
+│   │       ├── image 1.svg
+│   │       └── lmo-bg.png
+│   └── index.html
+├── README.md
+├── tree.txt
+└── webfonts
+    ├── fa-brands-400.ttf
+    ├── fa-brands-400.woff2
+    ├── fa-duotone-900.ttf
+    ├── fa-duotone-900.woff2
+    ├── fa-light-300.ttf
+    ├── fa-light-300.woff2
+    ├── fa-regular-400.ttf
+    ├── fa-regular-400.woff2
+    ├── fa-sharp-light-300.ttf
+    ├── fa-sharp-light-300.woff2
+    ├── fa-sharp-regular-400.ttf
+    ├── fa-sharp-regular-400.woff2
+    ├── fa-sharp-solid-900.ttf
+    ├── fa-sharp-solid-900.woff2
+    ├── fa-solid-900.ttf
+    ├── fa-solid-900.woff2
+    ├── fa-thin-100.ttf
+    ├── fa-thin-100.woff2
+    ├── fa-v4compatibility.ttf
+    └── fa-v4compatibility.woff2
+
+34 directories, 170 files
