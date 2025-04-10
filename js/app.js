@@ -1,8 +1,4 @@
-
 let $ = document
-
-
-////////////////////////////////////// anime lb /////
 
 const text = "LibreMobileOS";
 let index = 0;
@@ -16,8 +12,6 @@ function typeEffect() {
 }
 
 typeEffect()
-
-/////////////////////// سه تا باکس شمارنده //////////////
 
 const counters = document.querySelectorAll('.value');
 const speed = 100; 
@@ -46,11 +40,9 @@ function formatNumber(num) {
     return num.toLocaleString("en-US");
 }
 
-//////////////////////////////////// محصولات ////////////////
-
 let prudoct_list = [
-  {img:"../images/phone.png" ,bgimg:'../images/bg-phone1.png', title : "LMODroid",link:"#", subTitle : 'Android AOSP Based Mobile Operating system ',  }
-  ,{img:"../images/phone.png" ,bgimg:'../images/bg-phone2.png', title : "LMODroid",link:"#", subTitle : 'Android AOSP Based Mobile Operating system ',  }
+  {img:"images/phone.png" ,bgimg:'images/bg-phone1.png', title : "LMODroid",link:"#", subTitle : 'Android AOSP Based Mobile Operating system ',  }
+  ,{img:"images/phone.png" ,bgimg:'images/bg-phone2.png', title : "LMODroid",link:"#", subTitle : 'Android AOSP Based Mobile Operating system ',  }
 
 ]
 
@@ -77,23 +69,14 @@ $.querySelector("#prodList").insertAdjacentHTML("beforeend",prodBox)
 
 })
 
-
-
-///////////////////////لینک سورس کد ها ///////////////
-
-
-
-
     let suorce_link = [
-      {img :"../images/lgit.png" , link:''},
-      {img :"../images/frimor.png" , link:''},
-      {img :"../images/jenkins-1 1.png" , link:''},
-      {img :"../images/giticon.png" , link:''},
+      {img :"images/lgit.png" , link:''},
+      {img :"images/frimor.png" , link:''},
+      {img :"images/jenkins-1 1.png" , link:''},
+      {img :"images/giticon.png" , link:''},
 
     ]
  
-
-
 
 suorce_link.forEach( elm =>{
 
@@ -112,32 +95,16 @@ $.querySelector("#link_s").insertAdjacentHTML("beforeend",link_temp
 
 })
 
-// async function ftch() {
-//   try {
-//     let response = await fetch("https://cors-anywhere.herokuapp.com/https://stats.libremobileos.com/model");
-
-//     let data = await response.json();
-//     console.log("Fetched Data:", data);
-//   } catch (error) {
-//     console.error("Error fetching data:", error);
-//   }
-// }
-
-// ftch();
-
-
-///////////////////////////لیست پردازنده ها
-
 let pros_img = [
-  {img :"../images/Compatible/amlogic.png" , link:''},
-  {img :"../images/Compatible/Allwinner.png" , link:''},
-  {img :"../images/Compatible/broadcom.png" , link:''},
-  {img :"../images/Compatible/gp.png" , link:''},
-  {img :"../images/Compatible/Intel.png" , link:''},
-  {img :"../images/Compatible/MediaTek.png" , link:''},
-  {img :"../images/Compatible/Qualcomm.png" , link:''},
-  {img :"../images/Compatible/rockchip.png" , link:''},
-  {img :"../images/Compatible/samsung.png" , link:''},
+  {img :"images/Compatible/amlogic.png" , link:''},
+  {img :"images/Compatible/Allwinner.png" , link:''},
+  {img :"images/Compatible/broadcom.png" , link:''},
+  {img :"images/Compatible/gp.png" , link:''},
+  {img :"images/Compatible/Intel.png" , link:''},
+  {img :"images/Compatible/MediaTek.png" , link:''},
+  {img :"images/Compatible/Qualcomm.png" , link:''},
+  {img :"images/Compatible/rockchip.png" , link:''},
+  {img :"images/Compatible/samsung.png" , link:''},
 
 
 ]
